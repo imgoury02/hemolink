@@ -98,7 +98,7 @@ include 'hsidebar.php'; ?>
 
 
                     <div class="stat-panel-number h1 "><?php echo $row1?></div>
-                    <div class="stat-panel-title text-uppercase"> All User Queries </div>
+                    <div class="stat-panel-title text-uppercase"> Give Queries </div>
                     <br>
                     <button class="btn btn-danger" onclick="window.location.href = 'query.php';">
                       Full Detail <i class="fa fa-arrow-right"></i>
@@ -122,7 +122,7 @@ include 'hsidebar.php'; ?>
 
 
                     <div class="stat-panel-number h1 "><?php echo $row2 ?></div>
-                    <div class="stat-panel-title text-uppercase"> Pending Queries </div>
+                    <div class="stat-panel-title text-uppercase">View Status</div>
                     <br>
                     <button class="btn btn-danger" onclick="window.location.href = 'pending_query.php';">
                       Full Detail <i class="fa fa-arrow-right"></i>
