@@ -100,8 +100,8 @@ include 'hsidebar.php'; ?>
                     <div class="stat-panel-number h1 "><?php echo $row1?></div>
                     <div class="stat-panel-title text-uppercase"> Give Queries </div>
                     <br>
-                    <button class="btn btn-danger" onclick="window.location.href = 'query.php';">
-                      Full Detail <i class="fa fa-arrow-right"></i>
+                    <button class="btn btn-danger" onclick="window.location.href = 'need_blood.php';">
+                      <!-- Full Detail <i class="fa fa-arrow-right"></i> -->
                     </button>
                   </div>
                 </div>

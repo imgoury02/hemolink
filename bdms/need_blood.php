@@ -45,7 +45,7 @@
 </div>
 
 <div class="col-lg-4 mb-4">
-<div class="font-italic">Reason, why do you need blood?<span style="color:red">*</span></div>
+<div class="font-italic">Case of Patient<span style="color:red">*</span></div>
 <div><textarea class="form-control" name="address" required></textarea></div></div>
 </div>
 <div class="row">
