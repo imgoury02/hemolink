@@ -69,25 +69,32 @@ a {
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="bbaction.php" method="post">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
+
     <label for="text"><b>Name of Blood Bank</b></label>
     <input type="text" placeholder="Enter name" name="name" id="name" required>
-   
-    <label for="text"><b>Blood Bank ID</b></label>
-    <input type="text" placeholder="Enter ID" name="id" id="id" required>
+
+    <label for="text"><b>Username</b></label>
+    <input type="text" placeholder="Enter name" name="username" id="username" required>
     
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="email"><b>License Number</b></label>
+    <input type="text" placeholder="Enter Email" name="license_details" id="license_details" required>
 
     <label for="text"><b>City</b></label>
     <input type="text" placeholder="Enter city" name="city" id="city" required>
 
     <label for="text"><b>District</b></label>
-    <input type="text" placeholder="Enter district" name="dist" id="dist" required>
+    <input type="text" placeholder="Enter district" name="district" id="district" required>
+
+    <label for="text"><b>Contact Number</b></label>
+    <input type="text" placeholder="Enter contact number" name="contact_no" id="contact_no" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>

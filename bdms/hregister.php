@@ -69,16 +69,22 @@ a {
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="haction.php" method="post">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     <label for="text"><b>Name of Hospital</b></label>
     <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+    <label for="text"><b>Username</b></label>
+    <input type="text" placeholder="Enter name" name="username" id="username" required>
    
-    <label for="text"><b>Hospital ID</b></label>
-    <input type="text" placeholder="Enter ID" name="id" id="id" required>
+    <label for="text"><b>Registration Number</b></label>
+    <input type="text" placeholder="Enter ID" name="registration_no" id="registration_no" required>
+
+    <label for="text"><b>Contact Number</b></label>
+    <input type="text" placeholder="Enter ID" name="contact_no" id="contact_no" required>
     
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
@@ -87,7 +93,7 @@ a {
     <input type="text" placeholder="Enter city" name="city" id="city" required>
 
     <label for="text"><b>District</b></label>
-    <input type="text" placeholder="Enter district" name="dist" id="dist" required>
+    <input type="text" placeholder="Enter district" name="district" id="district" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>

@@ -69,29 +69,43 @@ a {
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="daction.php" method="post">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
-    <label for="text"><b>Name of Hospital</b></label>
-    <input type="text" placeholder="Enter name" name="name" id="name" required>
+    <label for="text"><b>Username</b></label>
+    <input type="text" placeholder="Enter name" name="username" id="username" required>
    
-    <label for="text"><b>Phone Number</b></label>
-    <input type="text" placeholder="Enter Phone Number" name="phone" id="phone" required>
+    <label for="text"><b>Name</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="name" id="name" required>
 
-    <label for="text"><b>Aadhar</b></label>
-    <input type="text" placeholder="Enter aadhar" name="aadhar" id="aadhar" required>
-
-    <label for="number"><b>Age</b></label>
-    <input type="text" placeholder="Enter age" name="age" id="age" required>
+    <label for="text"><b>Date of Birth</b></label><br>
+    <input type="date" placeholder="Enter aadhar" name="dob" id="dob" required>
+    <br>
+    <label for="number"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter phone no." name="contact_no" id="contact_no" required>
 
     <label for="text"><b>Blood Group</b></label>
-    <input type="text" placeholder="Enter Blood group" name="bldgrp" id="bldgrp" required>
-
+    <input type="text" placeholder="Enter Blood group" name="blood_group" id="blood_group" required>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="text"><b>Adhaar Number</b></label>
+    <input type="text" placeholder="Enter Email" name="proof_of_identity" id="proof_of_identity" required>
+
+    <label for="text"><b>Last Donated</b></label><br>
+    <input type="date" placeholder="Enter aadhar" name="last_donated" id="last_donated" required>
+    <br>
+    <label for="text"><b>Other Medical Info (if any)</b></label>
+    <input type="text" placeholder="Enter Email" name="other_medical_info" id="other_medical_info" >
+
+    <label for="text"><b>City</b></label>
+    <input type="text" placeholder="Enter city" name="city" id="city" required>
+
+    <label for="text"><b>District</b></label>
+    <input type="text" placeholder="Enter district" name="district" id="district" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
