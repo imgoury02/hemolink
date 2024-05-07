@@ -12,6 +12,15 @@
   border-radius: 10px;
   background-color: #f9f9f9;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("image/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Heading styling */
 h2 {

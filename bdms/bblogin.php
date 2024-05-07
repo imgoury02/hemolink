@@ -19,6 +19,14 @@ h2 {
   color: #f00;
   text-transform: uppercase;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("image/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
 
 /* Textbox styling */
 input[type=text], input[type=password] {

@@ -5,64 +5,58 @@
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background: url("image/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  margin: 0;
+  padding: 0;
 }
 
-* {
+
+.container {
+  width: 400px; /* Set the width of the container */
+  margin: 0 auto; /* Center the container on the page */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #f00;
+  text-transform: uppercase;
+}
+input[type=text], input[type=password], input[type=date] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
   box-sizing: border-box;
 }
 
-/* Add padding to containers */
-.container {
-  padding: 16px;
-  background-color: white;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-/* Set a style for the submit button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
-  padding: 16px 20px;
+  padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
 }
 
 .registerbtn:hover {
-  opacity: 1;
+  background-color: white;
+  color: black;
 }
 
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
   text-align: center;
 }
 </style>
@@ -71,7 +65,7 @@ a {
 
 <form action="daction.php" method="post">
   <div class="container">
-    <h1>Register</h1>
+    <h1>Donor Registration</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     <label for="text"><b>Username</b></label>
@@ -81,7 +75,7 @@ a {
     <input type="text" placeholder="Enter Phone Number" name="name" id="name" required>
 
     <label for="text"><b>Date of Birth</b></label><br>
-    <input type="date" placeholder="Enter aadhar" name="dob" id="dob" required>
+    <input type="date"  name="dob" id="dob" required>
     <br>
     <label for="number"><b>Phone Number</b></label>
     <input type="text" placeholder="Enter phone no." name="contact_no" id="contact_no" required>
@@ -93,13 +87,13 @@ a {
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
     <label for="text"><b>Adhaar Number</b></label>
-    <input type="text" placeholder="Enter Email" name="proof_of_identity" id="proof_of_identity" required>
+    <input type="text" placeholder="Enter Adhaar Number" name="proof_of_identity" id="proof_of_identity" required>
 
     <label for="text"><b>Last Donated</b></label><br>
-    <input type="date" placeholder="Enter aadhar" name="last_donated" id="last_donated" required>
+    <input type="date" name="last_donated" id="last_donated" required>
     <br>
     <label for="text"><b>Other Medical Info (if any)</b></label>
-    <input type="text" placeholder="Enter Email" name="other_medical_info" id="other_medical_info" >
+    <input type="text" placeholder="Enter Infos Here" name="other_medical_info" id="other_medical_info" >
 
     <label for="text"><b>City</b></label>
     <input type="text" placeholder="Enter city" name="city" id="city" required>
