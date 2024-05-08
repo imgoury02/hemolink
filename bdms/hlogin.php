@@ -64,7 +64,7 @@ button:hover {
 
 <!-- Wrap the form in a div with the login-box class -->
 <div class="login-box">
-  <form action="/action_page.php" method="post">
+  <form action="hsignin.php" method="post">
     <div class="container">
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
